@@ -27,8 +27,8 @@ const text = document.createTextNode("four");
 li.appendChild(text);
 
 // 10) Append the li to the ul element.
-const ol = document.getElementsByTagName("ol");
-ol.appendChild(li);
+const ul = document.getElementsByTagName("ul");
+ul.appendChild(li);
 
 // 12) Loop over all of the lis inside the ol tag and give them a background color of "green".
 const ol = document.getElementsByTagName("ol");
