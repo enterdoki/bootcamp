@@ -161,3 +161,92 @@ Array.prototype.myIncludes = function(target) {
 
     return false;
 }
+
+function myIndexOf(arr, term) {
+    for(let i = 0; i < arr.length; i++ ) {
+      let element = arr[i];
+      if(element === term)
+        return i;
+    }
+    return -1;
+  }
+  
+Array.prototype.myIndexOf = function(term) {
+    for(let i = 0; i < this.length; i++) {
+        let element = this[i];
+        if(element === term)
+        return i;
+    }
+
+    return -1;
+}
+
+function myPush(arr, new_term) {
+    let size = arr.length;
+    arr[size] = new_term;
+    return arr.length;
+}
+  
+Array.prototype.myPush = function(new_term) {
+    let size = arr.length;
+    arr[size] = new_term;
+    return arr.length;
+}
+
+function myUnshift(arr, target) {
+    for(let i = arr.length-1; i >= 0; i--) {
+      let element = arr[i];
+      if(element === target) 
+        return i;
+    }
+    return -1;
+}
+  
+Array.prototype.myUnshift = function(target) {
+    for(let i = this.length-1; i >= 0; i--) {
+      let element = this[i];
+      if(element === target) 
+        return i;
+    }
+    return -1;
+}
+
+function grabKeys(arr) {
+    let keys = [];
+  
+      for(let i in arr) {
+        if(i.hasOwnProperty(key))
+          keys.push(i);
+      }
+    return keys;
+}
+    
+  Object.grabKeys = function(arr) {
+      let keys = [];
+  
+      for(let i in arr) {
+        if(i.hasOwnProperty(key))
+          keys.push(i);
+      }
+    return keys;
+  }
+
+  function grabValues(arr) {
+    let values = [];
+  
+      for(let i in arr) {
+        if(i.hasOwnProperty(value))
+          values.push(i);
+      }
+    return keys;
+}
+    
+Object.grabValues = function(arr) {
+    let values = [];
+
+    for(let i in arr) {
+    if(i.hasOwnProperty(value))
+        values.push(i);
+    }
+return values;
+}
