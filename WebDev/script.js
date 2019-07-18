@@ -31,8 +31,8 @@ const ol = document.getElementsByTagName("ol");
 ol.appendChild(li);
 
 // 12) Loop over all of the lis inside the ol tag and give them a background color of "green".
-const ul = document.getElementsByTagName("ul");
-const list = ul.getElementsByTagName("li");
+const ol = document.getElementsByTagName("ul");
+const list = ol.getElementsByTagName("li");
 for(let i = 0; i < list.length; i++) {
     list[i].style.backgroundColor = "green";
 }
