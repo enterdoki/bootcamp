@@ -1,0 +1,16 @@
+.landing {
+	height: 92vh;
+	background: url("./assets/landing.jpg") no-repeat center;
+}
+
+.cover {
+	height: 100%;
+	background: rgba(0, 0, 0, 0.7);
+}
+
+#action-button {
+	border-radius: 5px;
+	/* background-color: red; */
+	padding: 1%;
+	color: black;
+}

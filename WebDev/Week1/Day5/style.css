@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'silkscreen_expandednormal';
+    src: url('assets/slkscre-webfont.woff2') format('woff2'),
+         url('assets/slkscre-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.title {
+    text-align: center;
+}
+
+h2 {
+    font-family: 'silkscreen_expandednormal';
+    font-weight:normal;
+    font-style:normal;
+    color: white;
+    font-size: 40px;
+}
+
+button {
+    font-size: 15px;
+}
+
+.button {
+    text-align: center;
+}
+select {
+    font-size: 15px;
+}
+
+table { 
+    border-collapse: collapse; 
+}
+
+td { 
+    border: solid thin; 
+    background-color: whitesmoke;
+    
+}

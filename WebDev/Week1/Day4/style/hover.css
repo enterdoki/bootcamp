@@ -1,0 +1,50 @@
+.box {
+    width: 350px;
+    height: 350px;
+    background:lightblue;
+    position: absolute;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+}
+
+.box h1 {
+    margin: 0;
+    background: lightblue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+}
+
+body{
+    margin: 0;
+}
+
+.nav {
+    overflow: hidden;
+        background-color: rgba(24, 22, 22, 0.7);
+}
+
+.nav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: "Arial", Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.nav a.active {
+    background-color: #4CAF50;
+    color: white;
+}

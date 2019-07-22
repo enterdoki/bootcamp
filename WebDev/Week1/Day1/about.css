@@ -1,0 +1,17 @@
+.landing {
+  height: 92vh;
+  background: url("./assets/climate-change.jpg") no-repeat center;
+}
+
+.cover {
+  height: 100%;
+  background: rgba(0,0,0,0.7);
+}
+
+.text {
+  color: aliceblue;
+}
+
+p {
+  padding: 40px;
+}

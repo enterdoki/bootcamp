@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/form.css">
+</head>
+<body>
+    <div class="nav">
+        <a href="button.html">Button</a>
+        <a class="active" href="form.html">Form</a>
+        <a href="hover.html">Hover Me</a>
+        <a href="sphere.html">Sphere Radius</a>
+    </div>
+
+    <div class ="container">
+        <form name = "myForm" onsubmit="passwordCheck(event)">
+            Username:<br>
+            <input type="text" name="Username"><br>
+            Password:<br>
+            <input type="password" name="Password"><br>
+            Email:<br>
+            <input type="text" name="Email"><br>
+            <input id="button" type="submit" value="Submit">
+        </form>
+        <h1 id="message">Welcome to this wonderful website</h1>
+    </div>
+    <script type="text/javascript" src="scripts/passwordcheck.js"></script>
+</body>
+</html>

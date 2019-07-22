@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>
+        </title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <script src = "script.js"></script>
+    </head>
+    <body style="background-color:black;">
+        <div class = "title"><h2>Pixelate</h2></div>
+        <div class = "button">
+            <button onclick = "addRow()">add row</button>
+            <button onclick = "removeRow()">remove row</button>
+            <button onclick = "addColumn()">add column</button>
+            <button onclick = "removeColumn()">remove column</button>
+            <button onclick = "fillAll('whitesmoke')">clear</button>
+            <button onclick = "fillAll(document.getElementById('colordrop').value)">fill all</button>
+            <button onclick = "fillUnColored()">fill uncolored</button>
+        
+            <select id = "colordrop">
+                <option value = "red">red</option>
+                <option value = "black">black</option>
+                <option value = "blue">blue</option>
+            </select> 
+        </div>
+        <br></br>
+        <table id = "main" align="center">
+            
+        </table>      
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <script src="" async defer></script>
+    </body>
+</html>

@@ -1,0 +1,41 @@
+.form-control{
+	margin: 10px 0;
+	background-color: rgba(0, 0, 0, 0);
+	border: 0;
+	border-bottom: 1px solid #495057;
+}
+
+.btn-group {
+	margin: 10px 0;
+}
+
+.radio {
+	color: #606a73;
+}
+
+.donate-main {
+	padding: 10%;
+	text-shadow: 1px 1px #666666;
+}
+
+.donate-blue {
+	height: 92vh;
+	background: url("./assets/donate.jpg") center no-repeat;
+	background-size: auto;
+}
+
+.donate-form {
+	padding: 5%;
+}
+
+.font-body {
+	font-size: 24px;
+}
+
+.font-main {
+	font-size: 48px;
+}
+
+.cover {
+	background: rgba(0, 0, 0, 0.8);
+}
