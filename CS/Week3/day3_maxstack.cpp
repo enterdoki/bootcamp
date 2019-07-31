@@ -39,3 +39,4 @@ class Max_stack {
     private:
     vector<int> data;
     vector<int> max_data;
+};
