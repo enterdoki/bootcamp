@@ -1,3 +1,10 @@
+#include <iostream>
+#include <stack>
+#include <vector>
+#include <queue>
+
+using namespace std;
+
 class MyCircularQueue {
 public:
     /** Initialize your data structure here. Set the size of the queue to be k. */
